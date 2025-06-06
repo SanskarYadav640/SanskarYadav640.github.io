@@ -1,0 +1,18 @@
+/* src/styles/ThemeToggle.css */
+.theme-toggle {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: var(--overlay);
+  color: var(--text);
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background 0.3s, color 0.3s;
+}
+.theme-toggle:hover {
+  background: var(--text);
+  color: var(--bg);
+}

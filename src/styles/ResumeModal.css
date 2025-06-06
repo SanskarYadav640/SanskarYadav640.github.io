@@ -1,0 +1,44 @@
+/* src/styles/ResumeModal.css */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+.modal-content {
+  position: relative;
+  width: 85%;
+  max-width: 800px;
+  height: 85%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.modal-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.pdf-container {
+  flex: 1;
+}
+.download-link {
+  text-align: center;
+  padding: 0.75rem;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.download-link:hover {
+  background: #0056b3;
+}
