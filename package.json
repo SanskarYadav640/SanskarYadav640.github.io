@@ -10,7 +10,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/SanskarYadav640/sanskar-portfolio.git",
+    "deploy": "gh-pages -d build --repo https://github.com/SanskarYadav640.github.io/sanskar-portfolio",
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && cp -r build docs",
     "test": "react-scripts test",
